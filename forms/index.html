@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<style>
+.customize-color{
+    background-color: aqua !important;
+    color: brown !important;
+}
+</style>
+
+<body>
+
+    <form>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <label for="" class="form-label">Username </label>
+                    <input class="form-control" 
+                        type="text" placeholder="username" name="username" id="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <label for="" class="form-label">Password </label>
+                    <input class="form-control" 
+                        type="password" placeholder="password" name="password" id="">
+                </div>
+                <div class="col-12">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Email@company.com">
+                </div>
+                <div class="col-6">
+                    <label for="" class="form-label">Address 1</label>
+                    <input type="text" class="form-control" placeholder="Address 1">
+                </div>
+                <div class="col-6">
+                    <label for="" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" placeholder="Address 2 (optional)">                    
+                </div>
+                <div class="col-md-5">
+                    <label for="">City</label>
+                    <input type="text" class="form-control" placeholder="city">
+                </div>
+                 <div class="col-md-4">
+                    <label for="">Region</label>
+                    <input type="text" class="form-control" placeholder="region">
+                </div>
+                <div class="col-md-3">
+                    <label for="">Postal code</label>
+                    <input type="text" class="form-control" placeholder="code">
+                </div>
+                <div class="col-12">
+                    <button type="submit">Submit</button>
+                </div>                               
+            </div>
+
+        </div>
+    </form>
+
+    <form class="my-5">
+
+        <div class="form-floating">
+            <input type="text" class="form-control" placeholder="">
+            <label>Username</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" placeholder="">
+            <label>Password</label>
+        </div>
+
+    </form>
+
+
+    <form action="">
+
+        <div>
+            <label for="">Select range</label>
+            <input type="range" class="form-range" min="0" max="10" step="2" />
+        </div>
+
+        <div class="form-check">
+            <label>Default checkbox:</label>
+            <input type="checkbox" class="form-check-input">
+        </div>
+        <div class="form-check">
+            <label>Checked checkbox:</label>
+            <input type="checkbox" class="form-check-input" checked>
+        </div> 
+
+        <div class="form-check">
+            <label>Default radio:</label>
+            <input type="radio" class="form-check-input">
+        </div>
+        <div class="form-check">
+            <label>Checked radio:</label>
+            <input type="radio" class="form-check-input" checked>
+        </div> 
+
+        <div class="form-check form-switch">
+            <label>Default swtich:</label>
+            <input type="checkbox" class="form-check-input">
+        </div>
+        <div class="form-check form-switch">
+            <label>Checked swtich:</label>
+            <input type="checkbox" class="form-check-input" checked>
+        </div> 
+
+        <select class="form-select form-select-lg" size="7" multiple>
+            <option value="1">Html</option>
+            <option value="2">css</option>
+            <option value="3">java</option>
+            <option value="4">javascript</option>
+            <option value="5">typescript</option>
+            <option value="6">python</option>
+            <option value="7">sql</option>
+        </select>
+
+        <select class="form-select form-select-sm my-5" size="6" disabled multiple>
+            <option value="1">Html</option>
+            <option value="2">css</option>
+            <option value="3">java</option>
+            <option value="4">javascript</option>
+            <option value="5">typescript</option>
+            <option value="6">python</option>
+            <option value="7">sql</option>
+        </select>
+
+        <div>
+            <label class="form-label">Email</label>
+            <input  class="form-control" type="email" placeholder="metabrains.com" />
+        </div>
+            <div>
+            <label class="form-label">Password</label>
+            <input class="form-control"type="password" name="" id=""  />
+        </div>
+        <input type="submit" name="" id="">
+    
+    </form>
+</body>
+</html> 
